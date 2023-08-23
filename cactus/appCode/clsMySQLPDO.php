@@ -112,5 +112,7 @@
         echo  $e->getMessage();  
       } 
    }//fin funcion ejecutaSPSafe 
+
+// CALL SP_Name("valP1
 }
 ?>
