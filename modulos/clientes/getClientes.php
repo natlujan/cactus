@@ -29,14 +29,12 @@
                         <td scope="col"><?=$row["rfc"]?></td>
                         <td scope="col"><?=$row["telefono"]?></td>
                         <td scope="col">
-                        <button type="button" class="btn btn-primary btn-sm" onclick="addCliente();">
-                            <i class="fa-solid fa-pen-to-square"></i>
                         </button>
                         <button type="button" class="btn btn-success btn-sm"onclick="editCliente();">
                             <i class="fa-solid fa-pen-to-square"></i>
                         </button>
                         <button type="button" class="btn btn-danger btn-sm"onclick="deleteCliente();">
-                            <i class="fa-solid fa-pen-to-square"></i>
+                            <i class="fa-solid fa-trash"></i>
                         </button>
 
                         </td>
@@ -45,6 +43,19 @@
 <?php
                     }
 ?>
+
+
+                    <tr>
+                    <td scope="col"></td>
+                    <td scope="col"></td>
+                    <td scope="col"></td>
+                    <td scope="col"></td>
+                    <td scope="col"></td>
+                    <td scope="col">
+                        <button class="btn btn-primary btn-sm" onclick="editCliente(0);">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </tr>
             </tbody>
         </table>
     </div>
